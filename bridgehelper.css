@@ -1,0 +1,33 @@
+@CHARSET "UTF-8";
+
+.clubs, .diams, .hearts, .spades {
+	font-size: 1.4em;
+	font-weight: bold;
+}
+
+.clubs {
+	color: #006611;
+}
+.diams {
+	color: #FF0000;
+}
+.hearts {
+	color: #FF0000;
+}
+.spades {
+	color: #005055;
+}
+
+.rozdanie .img {
+	text-align:center;
+	vertical-align:middle;
+}
+
+table.rozdanie td, table.rozdanie th {
+	border: none;
+	text-indent: 0;
+	vertical-align:bottom;
+}
+.rozdanie .dealDetails {
+	vertical-align:top;
+	
